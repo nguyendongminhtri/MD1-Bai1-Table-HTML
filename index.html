@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .cha {
+            width: 900px;
+            /*height: 300px;*/
+            outline: solid 1px rebeccapurple;
+            background-color: aqua;
+            display: flex;
+            justify-content: center;
+        }
+
+        .con {
+            background-color: white;
+            width: 800px;
+            height: 400px;
+            margin: 20px 20px 20px 20px;
+        }
+
+        /*.tieu_de {*/
+        /*    text-align: center;*/
+        /*}*/
+        .character {
+            color: blue;
+        }
+
+        .character2 {
+            color: #fc8140;
+        }
+    </style>
+</head>
+<body>
+<div class="cha">
+    <div class="con">
+        <table style="width: 100%">
+            <tr>
+                <td class="tieu_de" colspan="4"><h1 style="background-color: #fc8140; color: white; text-align: center">
+                    SỞ THÍCH CỦA BẠN</h1></td>
+            </tr>
+            <tr>
+                <td><p style="color: blue">Họ và tên: </p></td>
+                <td colspan="2"><input style="width: 350px" type="text"></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td><p class="character">Email: </p></td>
+                <td colspan="2"><input type="text"></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td><b class="character">Sở Thích: </b></td>
+                <td><input type="checkbox"><b class="character2">Thể Thao</b></td>
+                <td><input type="checkbox"><b class="character2">Âm Nhạc</b></td>
+                <td>
+                    <input type="checkbox"><b class="character2">Đọc Sách</b>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="checkbox"><b class="character2">Lướt Web</b></td>
+                <td><input type="checkbox"><b class="character2">Chơi Game</b></td>
+                <td>
+                    <input type="checkbox"><b class="character2">Điện Ảnh</b>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <input type="checkbox"><b class="character2">Du Lịch</b>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <button>Gửi Thông Tin</button>
+                </td>
+                <td>
+                    <button>Nhập Lại</button>
+                </td>
+                <td>
+                </td>
+            </tr>
+        </table>
+    </div>
+</div>
+</body>
+</html>
